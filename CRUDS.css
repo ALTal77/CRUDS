@@ -1,0 +1,59 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ttable thead tr th{
+    background: #000;
+    cursor: pointer;
+}
+.ttable tbody tr td{
+    cursor: pointer;
+}
+input::placeholder{
+    color: red;
+}
+div .form-control{
+    background-color: #000;
+   border-color: black;
+
+}
+div .form-control::placeholder{
+    color: aliceblue;
+}
+div .form-control:focus::placeholder{
+    color: #000;
+}
+div .form-control:focus{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+input[type="text"],input[type="number"]{
+    color: white;
+    font-size: 1rem;
+}
+
+#create,#search-titile,#search-category{
+    font-weight: 600;
+    font-size: 20px;
+}
+#search-titile:hover,#search-category:hover{
+    font-size: 20px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    background: #3434cf;
+}
+#create:hover{
+    letter-spacing: 2px;
+    transition: 0.3s;
+    background: #3434cf;
+}
+#total{
+    cursor:auto;
+}
+.outputs{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
